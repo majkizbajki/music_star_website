@@ -1,0 +1,183 @@
+@media screen and (min-width: 1450px) {
+    .contact-container-in {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        position: relative;
+        text-align: center;
+        animation: show-contact-top, show-contact-left;
+        animation-duration: 1s, 1s;
+        animation-delay: 0s, 1s;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .contact-container-static {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        position: relative;
+        text-align: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .contact-title {
+        width: 100%;
+        margin: 5% 0 0;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 40px;
+        display: block;
+    }
+
+    .form-container {
+        width: 100%;
+        margin-top: 60px;
+        display: block;
+    }
+
+    .main-info-container {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-evenly;
+    }
+
+    .part-info-container {
+        width: 40%;
+    }
+
+    #firstname,
+    #lastname,
+    #email,
+    #phonenumber {
+        width: 80%;
+        height: 30px;
+        text-align: center;
+        font-size: 16px;
+        outline: none;
+        border: none;
+        border-bottom: 2px solid black;
+    }
+
+    .phonenumber-correctness,
+    .firstname-correctness,
+    .lastname-correctness,
+    .email-correctness {
+        font-family: 'Courier New', Courier, monospace;
+        color: #ff0000;
+        visibility: hidden;
+        margin-bottom: 30px;
+    }
+
+    #message {
+        resize: none;
+        width: 50%;
+        height: 200px;
+        outline: none;
+        font-size: 16px;
+    }
+
+    .question-title {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 30px;
+        width: 100%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .question {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 20px;
+        width: 70%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .form-radio-input-container {
+        width: 50%;
+        height: 30px;
+        margin-bottom: 10px;
+        text-align: left;
+        display: flex;
+        flex-direction: row;
+        padding-left: 20%;
+        padding-right: 20%;
+        align-items: center;
+    }
+
+    .form-radio-label {
+        margin-left: 15px;
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    .form-validation{
+        font-family: 'Courier New', Courier, monospace;
+        color: #ff0000;
+        visibility: hidden;
+        margin: 20px 0px;
+    }
+
+    .submit-button{
+        width: 300px;
+        height: 50px;
+        background-color: #e9aa36;
+        border: none;
+        border-radius: 20px;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 30px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+    .form-passed{
+        display: none;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        width: 100%;
+    }
+
+    .form-passed-title{
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 30px;
+        width: 80%;
+    }
+
+    .form-passed-message{
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 16px;
+        width: 80%;
+    }
+}
+
+@keyframes show-contact-top {
+    from {
+        top: 70%;
+        width: 0%;
+        left: 100%;
+    }
+
+    to {
+        top: 0%;
+        width: 0%;
+        left: 100%;
+    }
+}
+
+@keyframes show-contact-left {
+    from {
+        top: 0%;
+        width: 50%;
+        left: 100%;
+    }
+
+    to {
+        top: 0%;
+        width: 50%;
+        left: 0%;
+    }
+}
