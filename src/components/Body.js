@@ -27,6 +27,12 @@ function Body(props) {
         setBoxColor();
     }, [navigationButtonNumber]);
 
+    useEffect(() => {
+        if(navigationButtonNumber === 3){
+            transformNavigationBarToLeft();
+        }
+    }, [navigationButtonNumber])
+
     const transformNavigationBarToLeft = () => {
         if (document.querySelector('.body-container').className !== 'body-container body-container-left') {
             document.querySelector('.body-container').classList.remove('body-container-top');
@@ -70,35 +76,26 @@ function Body(props) {
         }
     }
 
-    const hideElement = () => {
-
-    }
-
     return (
         <div className='body-container body-container-top'>
             <div className='navigation-bar navigation-bar-top-static'>
                 <button className='navigation-button navigation-button-top' onClick={() => {
-                    transformNavigationBarToTop();
                     previous = navigationButtonNumber;
-                    hideElement();
                     setNavigationButtonNumber(0);
+                    transformNavigationBarToTop();
                 }}>O mnie</button>
                 <button className='navigation-button navigation-button-top' onClick={() => {
-                    transformNavigationBarToTop();
                     previous = navigationButtonNumber;
-                    hideElement();
                     setNavigationButtonNumber(1);
+                    transformNavigationBarToTop();
                 }}>Koncerty</button>
                 <button className='navigation-button navigation-button-top' onClick={() => {
-                    transformNavigationBarToTop();
                     previous = navigationButtonNumber;
-                    hideElement();
                     setNavigationButtonNumber(2);
+                    transformNavigationBarToTop();
                 }}>Albumy</button>
                 <button className='navigation-button navigation-button-top' onClick={() => {
-                    transformNavigationBarToLeft();
                     previous = navigationButtonNumber;
-                    hideElement();
                     setNavigationButtonNumber(3);
                 }}>Kontakt</button>
             </div>
