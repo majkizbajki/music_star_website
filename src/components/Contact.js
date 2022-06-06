@@ -112,6 +112,12 @@ function Contact(props) {
         }
     }
 
+    useEffect(() => {
+        if(phoneNumber.length === 3 || phoneNumber.length === 7){
+            document.getElementById('phonenumber').value = phoneNumber+"-";
+        }
+    }, [phoneNumber])
+
     return (
         <div className='contact-container contact-container-static'>
             <h1 className='contact-title'>Formularz kontaktowy</h1>
