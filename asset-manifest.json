@@ -1,30 +1,30 @@
 {
   "files": {
-    "main.css": "/music_star/static/css/main.b877cd9f.css",
-    "main.js": "/music_star/static/js/main.d1e06dc0.js",
-    "static/media/albumy.jpg": "/music_star/static/media/albumy.44d075f7a9faa7c0cc3e.jpg",
-    "static/media/o_mnie.jpg": "/music_star/static/media/o_mnie.52706307b479c55597c0.jpg",
-    "static/media/szprycer.jpg": "/music_star/static/media/szprycer.355acabd8fdc1f00514a.jpg",
-    "static/media/jarmark.jpg": "/music_star/static/media/jarmark.4c074f42d8942b5de5f2.jpg",
-    "static/media/trojkat.jpg": "/music_star/static/media/trojkat.7fa8a4d0dac21b4064e1.jpg",
-    "static/media/kontakt.jpg": "/music_star/static/media/kontakt.4dad67250d05d4a63b67.jpg",
-    "static/media/soma.jpg": "/music_star/static/media/soma.164766fa9aacb92723fc.jpg",
-    "static/media/koncerty.jpg": "/music_star/static/media/koncerty.f655c30299941ff06be6.jpg",
-    "static/media/younghems.jpg": "/music_star/static/media/younghems.7522f900d38856561e84.jpg",
-    "static/media/pocztowka.jpg": "/music_star/static/media/pocztowka.e68da0d336ed52ca4b0a.jpg",
-    "static/media/europa.jpg": "/music_star/static/media/europa.390464ac1b07a242c65a.jpg",
-    "static/media/ja.jpg": "/music_star/static/media/ja.586072c8ab3c0fabdc5f.jpg",
-    "static/media/marmur.jpg": "/music_star/static/media/marmur.61259597189be87df226.jpg",
-    "static/media/flagey.jpg": "/music_star/static/media/flagey.03a6108202bb50c72aa5.jpg",
-    "static/media/cafebelga.jpg": "/music_star/static/media/cafebelga.74bec2bffba96024eb45.jpg",
-    "static/media/umowa.jpg": "/music_star/static/media/umowa.2c769aa1c21c9fe98f45.jpg",
-    "static/media/wosk.jpg": "/music_star/static/media/wosk.ad8607bfd6ee0c7f0e89.jpg",
-    "index.html": "/music_star/index.html",
-    "main.b877cd9f.css.map": "/music_star/static/css/main.b877cd9f.css.map",
-    "main.d1e06dc0.js.map": "/music_star/static/js/main.d1e06dc0.js.map"
+    "main.css": "/music_star_website/static/css/main.b877cd9f.css",
+    "main.js": "/music_star_website/static/js/main.ade296b8.js",
+    "static/media/albumy.jpg": "/music_star_website/static/media/albumy.44d075f7a9faa7c0cc3e.jpg",
+    "static/media/o_mnie.jpg": "/music_star_website/static/media/o_mnie.52706307b479c55597c0.jpg",
+    "static/media/szprycer.jpg": "/music_star_website/static/media/szprycer.355acabd8fdc1f00514a.jpg",
+    "static/media/jarmark.jpg": "/music_star_website/static/media/jarmark.4c074f42d8942b5de5f2.jpg",
+    "static/media/trojkat.jpg": "/music_star_website/static/media/trojkat.7fa8a4d0dac21b4064e1.jpg",
+    "static/media/kontakt.jpg": "/music_star_website/static/media/kontakt.4dad67250d05d4a63b67.jpg",
+    "static/media/soma.jpg": "/music_star_website/static/media/soma.164766fa9aacb92723fc.jpg",
+    "static/media/koncerty.jpg": "/music_star_website/static/media/koncerty.f655c30299941ff06be6.jpg",
+    "static/media/younghems.jpg": "/music_star_website/static/media/younghems.7522f900d38856561e84.jpg",
+    "static/media/pocztowka.jpg": "/music_star_website/static/media/pocztowka.e68da0d336ed52ca4b0a.jpg",
+    "static/media/europa.jpg": "/music_star_website/static/media/europa.390464ac1b07a242c65a.jpg",
+    "static/media/ja.jpg": "/music_star_website/static/media/ja.586072c8ab3c0fabdc5f.jpg",
+    "static/media/marmur.jpg": "/music_star_website/static/media/marmur.61259597189be87df226.jpg",
+    "static/media/flagey.jpg": "/music_star_website/static/media/flagey.03a6108202bb50c72aa5.jpg",
+    "static/media/cafebelga.jpg": "/music_star_website/static/media/cafebelga.74bec2bffba96024eb45.jpg",
+    "static/media/umowa.jpg": "/music_star_website/static/media/umowa.2c769aa1c21c9fe98f45.jpg",
+    "static/media/wosk.jpg": "/music_star_website/static/media/wosk.ad8607bfd6ee0c7f0e89.jpg",
+    "index.html": "/music_star_website/index.html",
+    "main.b877cd9f.css.map": "/music_star_website/static/css/main.b877cd9f.css.map",
+    "main.ade296b8.js.map": "/music_star_website/static/js/main.ade296b8.js.map"
   },
   "entrypoints": [
     "static/css/main.b877cd9f.css",
-    "static/js/main.d1e06dc0.js"
+    "static/js/main.ade296b8.js"
   ]
 }
